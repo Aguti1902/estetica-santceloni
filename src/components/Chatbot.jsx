@@ -76,8 +76,8 @@ const getResponse = (input, knowledge, lang, services) => {
   if (knowledge.locationKeywords.some(k => text.includes(k.normalize('NFD').replace(/[\u0300-\u036f]/g, '')))) {
     return {
       text: es
-        ? '📍 Nos encontramos en **Plaça 1 d'Octubre, 6, 08470 Sant Celoni, Barcelona**. Fácil acceso en transporte público y parking cercano.'
-        : '📍 Estem a **Plaça 1 d'Octubre, 6, 08470 Sant Celoni, Barcelona**. Fàcil accés en transport públic i aparcament proper.',
+        ? "📍 Nos encontramos en **Plaça 1 d'Octubre, 6, 08470 Sant Celoni, Barcelona**. Fácil acceso en transporte público y parking cercano."
+        : "📍 Estem a **Plaça 1 d'Octubre, 6, 08470 Sant Celoni, Barcelona**. Fàcil accés en transport públic i aparcament proper.",
       link: { to: '/contacto', label: es ? 'Ver en el mapa →' : 'Veure al mapa →' },
     }
   }
