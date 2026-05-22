@@ -131,8 +131,8 @@ export default function Contact() {
             ))}
             <div style={{ flex: 1, overflow: 'hidden', minHeight: '160px' }}>
               <iframe
-                title="Mapa Sant Celoni"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.9!2d2.4944!3d41.6897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4d6!2sVela%20Segala%20Est%C3%A8tica!5e0!3m2!1sca!2ses!4v1699000000000!5m2!1sca!2ses&q=Pla%C3%A7a+1+d%27Octubre+6+Sant+Celoni"
+                title="Mapa Vela Segala Estètica"
+                src="https://maps.google.com/maps?q=Pla%C3%A7a+1+d%27Octubre%2C+6%2C+08470+Sant+Celoni%2C+Barcelona&output=embed&z=17"
                 width="100%" height="100%" style={{ border: 0, display: 'block', minHeight: '180px' }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"
               />
             </div>
