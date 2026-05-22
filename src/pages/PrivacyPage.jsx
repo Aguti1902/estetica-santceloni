@@ -12,7 +12,7 @@ const content = {
         body: `Estètica Vela Segala (en adelante, "la Clínica") es la responsable del tratamiento de los datos personales recogidos a través de este sitio web.
 
 Datos de contacto:
-- Dirección: Carrer Major, 42, 08470 Sant Celoni, Barcelona
+- Dirección: Plaça 1 d'Octubre, 6, 08470 Sant Celoni, Barcelona
 - Teléfono: 938 67 58 22
 - WhatsApp: 621 30 72 35
 - Email: vela@velasegala.com`,
@@ -85,7 +85,7 @@ Puede aceptar o rechazar las cookies no esenciales mediante el banner que aparec
         body: `Estètica Vela Segala (d'ara endavant, "la Clínica") és la responsable del tractament de les dades personals recollides a través d'aquest lloc web.
 
 Dades de contacte:
-- Adreça: Carrer Major, 42, 08470 Sant Celoni, Barcelona
+- Adreça: Plaça 1 d'Octubre, 6, 08470 Sant Celoni, Barcelona
 - Telèfon: 938 67 58 22
 - WhatsApp: 621 30 72 35
 - Email: vela@velasegala.com`,

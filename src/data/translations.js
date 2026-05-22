@@ -113,7 +113,7 @@ export const translations = {
       },
       info: {
         addressLabel: 'Dirección',
-        address: 'Carrer Major, 42\n08470 Sant Celoni, Barcelona',
+        address: "Plaça 1 d'Octubre, 6\n08470 Sant Celoni, Barcelona",
         phoneLabel: 'Teléfono',
         emailLabel: 'Email',
         scheduleLabel: 'Horario',
@@ -246,7 +246,7 @@ export const translations = {
       },
       info: {
         addressLabel: 'Adreça',
-        address: 'Carrer Major, 42\n08470 Sant Celoni, Barcelona',
+        address: "Plaça 1 d'Octubre, 6\n08470 Sant Celoni, Barcelona",
         phoneLabel: 'Telèfon',
         emailLabel: 'Email',
         scheduleLabel: 'Horari',
