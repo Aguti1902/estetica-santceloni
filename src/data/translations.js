@@ -12,8 +12,9 @@ export const translations = {
     },
     // Topbar
     topbar: {
-      phone: '93 867 XX XX',
-      email: 'info@esteticasantceloni.com',
+      phone: '938 67 58 22',
+      whatsapp: '621 30 72 35',
+      email: 'vela@velasegala.com',
       schedule: 'Lun–Vie 9:00–20:00 · Sáb 9:00–14:00',
     },
     // Hero
@@ -40,8 +41,8 @@ export const translations = {
       categories: {
         facial: 'Medicina Estética Facial',
         corporal: 'Tratamientos Corporales',
+        medics: 'Médico-Estético',
         laser: 'Láser y Tecnología',
-        nutricion: 'Nutrición y Bienestar',
       },
     },
     // Why Us
@@ -119,6 +120,12 @@ export const translations = {
         schedule: 'Lunes a Viernes: 9:00 – 20:00\nSábados: 9:00 – 14:00\nDomingos: Cerrado',
       },
     },
+    // WhatsApp
+    whatsapp: {
+      title: 'Escríbenos por WhatsApp',
+      subtitle: 'Estaremos encantados de ayudarte a encontrar el tratamiento ideal.',
+      cta: 'Abrir WhatsApp',
+    },
     // Footer
     footer: {
       tagline: 'Medicina estética avanzada en Sant Celoni. Porque mereces sentirte bien.',
@@ -130,7 +137,7 @@ export const translations = {
         privacy: 'Política de privacidad',
         cookies: 'Política de cookies',
       },
-      copyright: '© 2024 Clínica Estètica Sant Celoni. Todos los derechos reservados.',
+      copyright: '© 2025 Clínica Estètica Sant Celoni. Todos los derechos reservados.',
     },
   },
 
@@ -145,8 +152,9 @@ export const translations = {
       lang: 'ES',
     },
     topbar: {
-      phone: '93 867 XX XX',
-      email: 'info@esteticasantceloni.com',
+      phone: '938 67 58 22',
+      whatsapp: '621 30 72 35',
+      email: 'vela@velasegala.com',
       schedule: 'Dl–Dv 9:00–20:00 · Ds 9:00–14:00',
     },
     hero: {
@@ -171,12 +179,12 @@ export const translations = {
       categories: {
         facial: 'Medicina Estètica Facial',
         corporal: 'Tractaments Corporals',
+        medics: 'Mèdic-Estètic',
         laser: 'Làser i Tecnologia',
-        nutricion: 'Nutrició i Benestar',
       },
     },
     whyUs: {
-      badge: 'Per què elegirnos',
+      badge: 'Per què triar-nos',
       title: 'La diferència que marca la nostra clínica',
       subtitle: 'Ens dediquem a oferir-te resultats reals amb el màxim rigor mèdic i un tracte humà i proper.',
       features: [
@@ -200,7 +208,7 @@ export const translations = {
       items: [
         { name: 'María García', service: 'Bòtox facial', text: 'Resultat increïble i molt natural. L\'equip mèdic em va explicar tot amb detall i em vaig sentir en tot moment molt segura i ben atesa.' },
         { name: 'Laura Martínez', service: 'Depilació làser', text: 'Després de 6 sessions el resultat és espectacular. El tracte és excel·lent i la clínica té unes instal·lacions molt modernes. 100% recomanable.' },
-        { name: 'Sònia Puig', service: 'Relleno de llavis', text: "Feia temps que volia fer-me el tractament i no em decidia. L'equip em va assessorar sense cap pressió i el resultat és just el que volia." },
+        { name: 'Sònia Puig', service: 'Rellè de llavis', text: "Feia temps que volia fer-me el tractament i no em decidia. L'equip em va assessorar sense cap pressió i el resultat és just el que volia." },
         { name: 'Anna Roca', service: 'HydraFacial', text: 'La meva pell mai ha estat tan bé. El tractament és molt relaxant i els resultats duren molt. Ja he reservat la propera sessió.' },
         { name: 'Cristina Torres', service: 'Bioestimulador de col·lagen', text: 'Vaig venir recomanada per una amiga i ha estat una de les millors decisions. Professionals, propers i amb resultats molt bons.' },
         { name: 'Marta Vidal', service: 'Mesoteràpia corporal', text: "L'assessorament previ va ser molt complet. Es nota que saben molt del que fan i el resultat ha estat molt millor del que esperava." },
@@ -245,6 +253,12 @@ export const translations = {
         schedule: 'Dilluns a Divendres: 9:00 – 20:00\nDissabtes: 9:00 – 14:00\nDiumenges: Tancat',
       },
     },
+    // WhatsApp
+    whatsapp: {
+      title: 'Escriu-nos per WhatsApp',
+      subtitle: "Estarem encantats d'ajudar-te a trobar el tractament ideal.",
+      cta: 'Obrir WhatsApp',
+    },
     footer: {
       tagline: 'Medicina estètica avançada a Sant Celoni. Perquè mereixes sentir-te bé.',
       nav: 'Navegació',
@@ -255,7 +269,7 @@ export const translations = {
         privacy: 'Política de privacitat',
         cookies: 'Política de galetes',
       },
-      copyright: '© 2024 Clínica Estètica Sant Celoni. Tots els drets reservats.',
+      copyright: '© 2025 Clínica Estètica Sant Celoni. Tots els drets reservats.',
     },
   },
 }

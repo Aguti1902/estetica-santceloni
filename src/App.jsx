@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import ScrollToTop from './components/ScrollToTop'
 import WhatsAppButton from './components/WhatsAppButton'
 import Chatbot from './components/Chatbot'
+import CookieBanner from './components/CookieBanner'
 
 // Pages — lazy loaded for code splitting
 const HomePage = lazy(() => import('./pages/HomePage'))
@@ -14,6 +15,7 @@ const ServiceDetailPage = lazy(() => import('./pages/ServiceDetailPage'))
 const AboutPage = lazy(() => import('./pages/AboutPage'))
 const GalleryPage = lazy(() => import('./pages/GalleryPage'))
 const ContactPage = lazy(() => import('./pages/ContactPage'))
+const PrivacyPage = lazy(() => import('./pages/PrivacyPage'))
 
 function PageLoader() {
   return (
@@ -40,6 +42,7 @@ function Layout() {
       <Footer />
       <WhatsAppButton />
       <Chatbot />
+      <CookieBanner />
     </>
   )
 }
@@ -57,6 +60,7 @@ export default function App() {
               <Route path="sobre-nosotros" element={<AboutPage />} />
               <Route path="galeria" element={<GalleryPage />} />
               <Route path="contacto" element={<ContactPage />} />
+              <Route path="politica-privacitat" element={<PrivacyPage />} />
             </Route>
           </Routes>
         </Suspense>

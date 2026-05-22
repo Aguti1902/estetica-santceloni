@@ -90,10 +90,15 @@ export default function Footer() {
           <p style={{ fontSize: '0.7rem', color: 'rgba(255,255,255,0.25)', letterSpacing: '0.04em' }}>{t.footer.copyright}</p>
           <div style={{ display: 'flex', gap: '1.5rem' }}>
             {Object.entries(t.footer.links).map(([key, label]) => (
-              <a key={key} href="#" style={{ fontSize: '0.7rem', color: 'rgba(255,255,255,0.25)', textDecoration: 'none', transition: 'color 0.2s' }}
-                onMouseEnter={e => e.currentTarget.style.color = 'rgba(255,255,255,0.7)'}
-                onMouseLeave={e => e.currentTarget.style.color = 'rgba(255,255,255,0.25)'}
-              >{label}</a>
+              key === 'privacy'
+                ? <Link key={key} to="/politica-privacitat" style={{ fontSize: '0.7rem', color: 'rgba(255,255,255,0.25)', textDecoration: 'none', transition: 'color 0.2s' }}
+                    onMouseEnter={e => e.currentTarget.style.color = 'rgba(255,255,255,0.7)'}
+                    onMouseLeave={e => e.currentTarget.style.color = 'rgba(255,255,255,0.25)'}
+                  >{label}</Link>
+                : <a key={key} href="#" style={{ fontSize: '0.7rem', color: 'rgba(255,255,255,0.25)', textDecoration: 'none', transition: 'color 0.2s' }}
+                    onMouseEnter={e => e.currentTarget.style.color = 'rgba(255,255,255,0.7)'}
+                    onMouseLeave={e => e.currentTarget.style.color = 'rgba(255,255,255,0.25)'}
+                  >{label}</a>
             ))}
           </div>
         </div>

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { useLang } from '../context/LanguageContext'
 import { servicesData } from '../data/services'
@@ -98,7 +99,7 @@ export default function Contact() {
                   </div>
                   <span style={{ fontSize: '0.8rem', color: '#6b7280', lineHeight: 1.5, userSelect: 'none' }}>
                     {f.privacy}{' '}
-                    <a href="#" onClick={e => e.stopPropagation()} style={{ color: '#0d0d0d', fontWeight: 600 }}>{f.privacyLink}</a>
+                    <Link to="/politica-privacitat" onClick={e => e.stopPropagation()} style={{ color: '#0d0d0d', fontWeight: 600 }}>{f.privacyLink}</Link>
                   </span>
                 </div>
 
@@ -116,6 +117,7 @@ export default function Contact() {
             {[
               { label: info.addressLabel, value: info.address },
               { label: info.phoneLabel, value: t.topbar.phone, href: `tel:${t.topbar.phone.replace(/\s/g, '')}` },
+              { label: 'WhatsApp', value: t.topbar.whatsapp, href: `https://wa.me/34${t.topbar.whatsapp.replace(/\s/g, '')}` },
               { label: info.emailLabel, value: t.topbar.email, href: `mailto:${t.topbar.email}` },
               { label: info.scheduleLabel, value: info.schedule },
             ].map((item, i) => (

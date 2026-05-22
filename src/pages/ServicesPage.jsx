@@ -13,8 +13,8 @@ export default function ServicesPage() {
   const filtered = activeCategory === 'all' ? services : services.filter(s => s.category === activeCategory)
 
   const categoryLabels = {
-    es: { all: 'Todos', facial: 'Facial', corporal: 'Corporal', laser: 'Láser', nutricion: 'Nutrición' },
-    ca: { all: 'Tots', facial: 'Facial', corporal: 'Corporal', laser: 'Làser', nutricion: 'Nutrició' },
+    es: { all: 'Todos', facial: 'Facial', corporal: 'Corporal', medics: 'Médico-Estético', laser: 'Láser' },
+    ca: { all: 'Tots', facial: 'Facial', corporal: 'Corporal', medics: 'Mèdic-Estètic', laser: 'Làser' },
   }
 
   return (
@@ -59,7 +59,7 @@ export default function ServicesPage() {
           </div>
 
           {/* Grid */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5px', background: '#e8e8e8' }} className="services-page-grid">
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5px', background: 'transparent' }} className="services-page-grid">
             {filtered.map((service, i) => (
               <ServiceRow key={service.id} service={service} index={i} lang={lang} />
             ))}
