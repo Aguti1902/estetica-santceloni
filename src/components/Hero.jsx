@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { useLang } from '../context/LanguageContext'
 
@@ -67,12 +68,12 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.5 }}
             style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', marginBottom: '3.5rem' }}
           >
-            <a href="#contacte" className="btn-dark">
+            <Link to="/contacto" className="btn-dark">
               {t.hero.cta1} <Arrow />
-            </a>
-            <a href="#servicios" className="btn-ghost">
+            </Link>
+            <Link to="/servicios" className="btn-ghost">
               {t.hero.cta2}
-            </a>
+            </Link>
           </motion.div>
 
           {/* Stats */}

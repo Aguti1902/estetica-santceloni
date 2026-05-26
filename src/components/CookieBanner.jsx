@@ -8,13 +8,13 @@ const STORAGE_KEY = 'cookie-consent'
 const content = {
   es: {
     text: 'Utilizamos cookies propias y de terceros para mejorar tu experiencia y analizar el uso de nuestra web. Puedes aceptar todas las cookies o rechazar las no esenciales.',
-    privacyLink: 'Política de privacidad',
-    accept: 'Acceptar tot',
-    reject: 'Rebutjar',
+    privacyLink: 'Política de cookies',
+    accept: 'Aceptar todo',
+    reject: 'Rechazar',
   },
   ca: {
     text: "Utilitzem cookies pròpies i de tercers per millorar la teva experiència i analitzar l'ús del nostre web. Pots acceptar totes les cookies o rebutjar les no essencials.",
-    privacyLink: 'Política de privacitat',
+    privacyLink: 'Política de galetes',
     accept: 'Acceptar tot',
     reject: 'Rebutjar',
   },
@@ -57,7 +57,7 @@ export default function CookieBanner() {
           <div className="container" style={{ padding: '1.25rem clamp(1.5rem, 5vw, 4rem)', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '1.5rem', flexWrap: 'wrap' }}>
             <p style={{ fontSize: '0.78rem', color: 'rgba(255,255,255,0.6)', lineHeight: 1.6, maxWidth: '680px', margin: 0 }}>
               {c.text}{' '}
-              <Link to="/politica-privacitat" style={{ color: 'rgba(255,255,255,0.85)', textDecoration: 'underline', textUnderlineOffset: '2px' }}>
+              <Link to="/politica-cookies" style={{ color: 'rgba(255,255,255,0.85)', textDecoration: 'underline', textUnderlineOffset: '2px' }}>
                 {c.privacyLink}
               </Link>
             </p>

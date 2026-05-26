@@ -16,6 +16,8 @@ const AboutPage = lazy(() => import('./pages/AboutPage'))
 const GalleryPage = lazy(() => import('./pages/GalleryPage'))
 const ContactPage = lazy(() => import('./pages/ContactPage'))
 const PrivacyPage = lazy(() => import('./pages/PrivacyPage'))
+const AvisoLegalPage = lazy(() => import('./pages/AvisoLegalPage'))
+const PoliticaCookiesPage = lazy(() => import('./pages/PoliticaCookiesPage'))
 
 function PageLoader() {
   return (
@@ -61,6 +63,9 @@ export default function App() {
               <Route path="galeria" element={<GalleryPage />} />
               <Route path="contacto" element={<ContactPage />} />
               <Route path="politica-privacitat" element={<PrivacyPage />} />
+              <Route path="politica-privacidad" element={<PrivacyPage />} />
+              <Route path="aviso-legal" element={<AvisoLegalPage />} />
+              <Route path="politica-cookies" element={<PoliticaCookiesPage />} />
             </Route>
           </Routes>
         </Suspense>

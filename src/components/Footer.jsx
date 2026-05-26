@@ -89,17 +89,15 @@ export default function Footer() {
         <div style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '1.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
           <p style={{ fontSize: '0.7rem', color: 'rgba(255,255,255,0.25)', letterSpacing: '0.04em' }}>{t.footer.copyright}</p>
           <div style={{ display: 'flex', gap: '1.5rem' }}>
-            {Object.entries(t.footer.links).map(([key, label]) => (
-              key === 'privacy'
-                ? <Link key={key} to="/politica-privacitat" style={{ fontSize: '0.7rem', color: 'rgba(255,255,255,0.25)', textDecoration: 'none', transition: 'color 0.2s' }}
-                    onMouseEnter={e => e.currentTarget.style.color = 'rgba(255,255,255,0.7)'}
-                    onMouseLeave={e => e.currentTarget.style.color = 'rgba(255,255,255,0.25)'}
-                  >{label}</Link>
-                : <a key={key} href="#" style={{ fontSize: '0.7rem', color: 'rgba(255,255,255,0.25)', textDecoration: 'none', transition: 'color 0.2s' }}
-                    onMouseEnter={e => e.currentTarget.style.color = 'rgba(255,255,255,0.7)'}
-                    onMouseLeave={e => e.currentTarget.style.color = 'rgba(255,255,255,0.25)'}
-                  >{label}</a>
-            ))}
+            {Object.entries(t.footer.links).map(([key, label]) => {
+              const routes = { legalNotice: '/aviso-legal', privacy: '/politica-privacidad', cookies: '/politica-cookies' }
+              return (
+                <Link key={key} to={routes[key] || '#'} style={{ fontSize: '0.7rem', color: 'rgba(255,255,255,0.25)', textDecoration: 'none', transition: 'color 0.2s' }}
+                  onMouseEnter={e => e.currentTarget.style.color = 'rgba(255,255,255,0.7)'}
+                  onMouseLeave={e => e.currentTarget.style.color = 'rgba(255,255,255,0.25)'}
+                >{label}</Link>
+              )
+            })}
           </div>
         </div>
       </div>

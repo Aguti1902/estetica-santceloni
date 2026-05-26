@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { useLang } from '../context/LanguageContext'
 
@@ -46,12 +47,12 @@ export default function CtaBanner() {
         <motion.div
           initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.3 }}
         >
-          <a href="#contacte" className="btn-light">
+          <Link to="/contacto" className="btn-light">
             {c.cta}
             <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
             </svg>
-          </a>
+          </Link>
           <p style={{ marginTop: '1.5rem', fontSize: '0.65rem', color: 'rgba(255,255,255,0.25)', letterSpacing: '0.12em', textTransform: 'uppercase' }}>{c.note}</p>
         </motion.div>
       </div>
