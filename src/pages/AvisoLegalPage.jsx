@@ -100,13 +100,13 @@ Correu electrònic: vela@velasegala.com
 Activitat: Centre d'estètica i medicina estètica`,
       },
       {
-        title: '2. Objecte i àmbit d'aplicació',
+        title: "2. Objecte i àmbit d'aplicació",
         body: `El present Avís Legal regula l'accés i l'ús del lloc web d'Estètica Vela Segala (d'ara endavant, "el Lloc Web"), així com els drets i obligacions dels usuaris que hi accedeixin.
 
 L'accés i/o l'ús d'aquest Lloc Web atribueix la condició d'USUARI, que accepta, des d'aquest accés i/o ús, les condicions d'ús aquí reflectides. Aquestes condicions seran aplicables independentment de les condicions específiques que, si escau, siguin d'obligat compliment.`,
       },
       {
-        title: '3. Condicions d'accés i ús del portal',
+        title: "3. Condicions d'accés i ús del portal",
         body: `L'accés al Lloc Web és lliure i gratuït. No obstant això, Estètica Vela Segala pot condicionar la utilització d'alguns dels serveis oferts a través del Lloc Web a la prèvia emplenament del corresponent formulari de contacte o de reserva.
 
 L'usuari es compromet a fer un ús correcte del Lloc Web de conformitat amb la Llei i el present Avís Legal. L'usuari respondrà davant d'Estètica Vela Segala o davant de tercers de qualsevol dany i perjudici que pugui causar-se com a conseqüència de l'incompliment d'aquesta obligació.`,

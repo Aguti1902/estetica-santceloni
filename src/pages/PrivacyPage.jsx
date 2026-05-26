@@ -151,7 +151,7 @@ Si considera que el tractament de les seves dades no s'ajusta a la normativa vig
         body: `Apliquem les mesures tècniques i organitzatives adequades per garantir un nivell de seguretat apropiat al risc del tractament, en particular enfront de l'accés no autoritzat, la pèrdua accidental, la destrucció o el dany de les dades, de conformitat amb l'article 32 del RGPD.`,
       },
       {
-        title: '8. Menors d'edat',
+        title: "8. Menors d'edat",
         body: `Els nostres serveis no estan adreçats a menors de 14 anys. No recollim conscientment dades personals de menors. Si teniu coneixement que un menor ens ha facilitat les seves dades sense el consentiment dels seus tutors legals, us preguem que ens ho comuniqueu a vela@velasegala.com per procedir a la seva eliminació.`,
       },
       {
